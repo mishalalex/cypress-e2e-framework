@@ -18,6 +18,7 @@
   "homepage": "https://github.com/mishalalex/cypress-e2e-framework/#readme",
   "devDependencies": {
     "cypress": "^13.6.2",
+    "cypress-mochawesome-reporter": "^3.8.0",
     "npm": "^10.2.5"
   }
 }
