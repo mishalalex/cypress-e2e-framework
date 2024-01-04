@@ -1,0 +1,22 @@
+{
+  "name": "cypress-e2e-framework",
+  "version": "1.0.0",
+  "description": "Sample framework created using Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mishal Alexander",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mishalalex/cypress-e2e-framework"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mishalalex/cypress-e2e-framework/issues"
+  },
+  "homepage": "https://github.com/mishalalex/cypress-e2e-framework/#readme",
+  "devDependencies": {
+    "cypress": "^13.6.2"
+  }
+}
