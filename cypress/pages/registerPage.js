@@ -1,7 +1,7 @@
-class registerPage {
+export class registerPage {
 
     weblocators = {
-        firstName: '#input-firstname"',
+        firstName: '#input-firstname',
         lastName: '#input-lastname',
         email: '#input-email',
         telephone: '#input-telephone',
