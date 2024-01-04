@@ -12,3 +12,11 @@ jobs:
 
       - name: Cypress run
         uses: cypress-io/github-action@v5
+        with:
+          command: npm run test:all
+
+      - name: Cypress Test Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: Mochawesome html report
+          path: cypress/reports/html
