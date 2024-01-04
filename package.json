@@ -4,7 +4,7 @@
   "description": "Sample framework created using Cypress",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:addToCart": "npx cypress run --spec cypress/e2e/tests/addToCartTest.cy.js"
   },
   "author": "Mishal Alexander",
   "repository": {
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/mishalalex/cypress-e2e-framework/#readme",
   "devDependencies": {
-    "cypress": "^13.6.2"
+    "cypress": "^13.6.2",
+    "npm": "^10.2.5"
   }
 }
