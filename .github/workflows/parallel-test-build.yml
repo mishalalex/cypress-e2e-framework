@@ -26,7 +26,7 @@ jobs:
         id: html_preview
         uses: pavi2410/html-preview-action@v2
         with:
-          html_file: 'index.html'
+          html_file: 'cypress/reports/html/index.html'
 
   register-flow-run:
     runs-on: ubuntu-22.04
@@ -53,4 +53,4 @@ jobs:
         id: html_preview
         uses: pavi2410/html-preview-action@v2
         with:
-          html_file: 'index.html'
+          html_file: 'cypress/reports/html/index.html'
