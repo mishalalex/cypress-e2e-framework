@@ -4,12 +4,8 @@
   "description": "Sample framework created using Cypress",
   "main": "index.js",
   "scripts": {
-    "test:addToCart": "npx cypress run --spec cypress/e2e/tests/addToCartTest.cy.js",
-    "test:registerTest": "npx cypress run --spec cypress/e2e/tests/registerTest.cy.js",
-    "test:simpleApiTest": "npx cypress run --spec cypress/e2e/api-tests/simpleApiTest.cy.js",
-    "test:bearertokentest": "npx cypress run --spec cypress/e2e/api-tests/simpleBearerTokenTests.cy.js",
     "test:apiTests": "npx cypress run --spec cypress/e2e/api-tests/",
-    "test:uiTests": "npx cypress run --spec cypress/e2e/tests/",
+    "test:uiTests": "npx cypress run --spec cypress/e2e/ui-tests/",
     "test:all": "npx cypress run"
   },
   "author": "Mishal Alexander",
@@ -23,6 +19,7 @@
   },
   "homepage": "https://github.com/mishalalex/cypress-e2e-framework/#readme",
   "devDependencies": {
+    "ajv": "^8.12.0",
     "cypress": "^13.6.2",
     "cypress-mochawesome-reporter": "^3.8.0",
     "npm": "^10.2.5"
