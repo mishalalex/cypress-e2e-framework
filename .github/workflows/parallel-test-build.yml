@@ -15,7 +15,7 @@ jobs:
         with:
           command: npm run test:uiTests
 
-      - name: Add to cart Test Report
+      - name: All UI Test Report
         if: always()
         uses: actions/upload-artifact@v4
         with:
