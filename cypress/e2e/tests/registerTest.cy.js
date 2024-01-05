@@ -2,7 +2,7 @@ import {registerPage} from "../../pages/registerPage";
 import registerData from "../../fixtures/registerData.json";
 
 const registerObject = new registerPage()
-describe('Cypress Test Automation Suite',() => {
+describe('Register a new user tests',() => {
     it('register a new user',()=>{
         registerObject.openUrl();
         registerObject.enterFirstName(registerData.firstname);

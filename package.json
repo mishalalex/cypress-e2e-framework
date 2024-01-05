@@ -9,6 +9,7 @@
     "test:simpleApiTest": "npx cypress run --spec cypress/e2e/api-tests/simpleApiTest.cy.js",
     "test:bearertokentest": "npx cypress run --spec cypress/e2e/api-tests/simpleBearerTokenTests.cy.js",
     "test:apiTests": "npx cypress run --spec cypress/e2e/api-tests/",
+    "test:uiTests": "npx cypress run --spec cypress/e2e/tests/",
     "test:all": "npx cypress run"
   },
   "author": "Mishal Alexander",
