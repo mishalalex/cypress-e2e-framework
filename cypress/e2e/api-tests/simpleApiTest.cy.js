@@ -1,4 +1,4 @@
-describe("HTTP requests",()=>{
+describe("Simple Api request tests",()=>{
     it('simple get request', ()=> {
         cy.request('GET','https://jsonplaceholder.typicode.com/posts/1')
             .its('status')
