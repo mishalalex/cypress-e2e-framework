@@ -1,9 +1,9 @@
 describe.skip('Simple OAuth Authentication Test',() => {
     let bearerToken = '';
     before('A simple Oauth authentication test', () => {
-        const clientId = '74744e504ecc97dec860';
-        const clientSecret = '0b1bb057f8c3e7c95563f0f3a28b2a20ae9c4934';
-        const clientCode = '277ae688d109aadc92c2';
+        const clientId = '<enter_client_id_here>';
+        const clientSecret = '<enter_client_secret_here>';
+        const clientCode = '<enter_client_code_here>';
         // 1. get oauth 2.0 access token
         cy.request({
             method:'POST',
