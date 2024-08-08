@@ -1,6 +1,8 @@
 # cypress-e2e-framework
-This is a simple framework created using Cypress with Mochawesome reports capable of CI/CD execution with Github actions.
-This repository contains two test files - a spec file which registers a user on a test site and another spec file which adds a product to the cart after logging in.
+This is an end-to-end test automation framework created using Cypress with Mochawesome reports capable of CI/CD execution with Github actions for both Rest API and UI.
+The api tests are stored under the 'e2e/api-tests' folder and the ui tests under 'e2e/ui-tests' folder. 
+Test data is stored in the 'fixtures' folder.
+
 
 To run - 
 1. Clone the repository
